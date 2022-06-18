@@ -16,7 +16,7 @@ Including another URLconf
 from django.urls import path, re_path
 from . import views
 from django.contrib.auth.views import LoginView, LogoutView
-app_name = 'college_predictor'
+app_name = 'my-college-predictor'
 
 urlpatterns = [
     path('', views.home, name="home"),
