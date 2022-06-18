@@ -25,7 +25,9 @@ SECRET_KEY = 'pfl^v$=@ti!6#df0am_+b&f$+cfp-=_lbc6&p+9ilcelljmuup'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','my-college-predictor.herokuapp.com']
+
+
 
 
 # Application definition
