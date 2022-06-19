@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -30,7 +30,7 @@ SECRET_KEY = 'pfl^v$=@ti!6#df0am_+b&f$+cfp-=_lbc6&p+9ilcelljmuup'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get("DEBUG",False))
 
-ALLOWED_HOSTS = ['my-college-predictor.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','my-college-predictor.herokuapp.com']
 
 
 

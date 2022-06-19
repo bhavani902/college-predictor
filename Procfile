@@ -1,3 +1,1 @@
-web: gunicorn django_project.wsgi:application --log-file - 
-python manage.py collectstatic --noinput
-manage.py migrate
+web: gunicorn my-college-predictor.wsgi
